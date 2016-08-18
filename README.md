@@ -1,11 +1,13 @@
 # vinaudit 
 First wordpress plugin I have ever built
 
-Custom Wordpress plugin created to be used as an add-on with gravity forms. This plugin allows for integration with VinAudit API, not currently built as a deployable solution for others without edits.
+This Plugin REQUIRES Gravity Forms in order to function correctly.
 
-Notes for future releases:
-Need to create form setting page which has editable settings for users like origin email, admin email, selecting which forms fields apply to which data.
+Custom Wordpress plugin created to be used as an add-on with gravity forms. This plugin allows for integration with VinAudit API. Therre are a few options which can be taken advantage of with this plugin. 
 
-create a receiving form that essentially catches the data pulled by the first form.
+First you can have a form which takes a VIN and emails the report to the admin(or person of your choosing) for viewing and contacting the user. Great if you are a car buyer and want to see the reports of cars people are offering to you.
 
-create an enable/disable toggle since the current plugin only works if the form is build exactly like my testing form(not acceptable)
+Second you can take a VIN and email the user their report from VinAudit without involving yourself. Users can utilize this to get information on vehicles before purchasing.
+
+Third you can get the report data, and send it to a second form with the fields filled out for users to confirm the information is correct before submitting it to your site.
+
