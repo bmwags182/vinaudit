@@ -115,11 +115,11 @@ class GFVinAudit extends GFAddOn {
 	/**
 	 * Creates a custom page for this add-on.
 	 */
-	/**
-	* 	public function plugin_page() {
-	* 		echo 'This page appears in the Forms menu';
-	* 	}
-	**/
+	/*
+	 * 	public function plugin_page() {
+	 * 		echo 'This page appears in the Forms menu';
+	 * 	}
+	 */
 	/**
 	 * Configures the settings which should be rendered on the add-on settings tab.
 	 *
@@ -192,7 +192,7 @@ class GFVinAudit extends GFAddOn {
 							),
 						),
 					),
-					/**
+					/*
 					array(
 						'label'   => esc_html__( 'My checkboxes', 'vinaudit' ),
 						'type'    => 'checkbox',
@@ -311,7 +311,7 @@ class GFVinAudit extends GFAddOn {
 							),
 						),
 					),
-					**/
+					*/
 					array(
 					      'label'				=> esc_html__('Admin Email', 'vinaudit'),
 					      'type'				=> 'text',
